@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Course_preview"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/media_player"
+            app:resize_mode="fill"
+            app:hide_on_touch="true"
+            app:show_timeout="50000"
+            app:use_controller="true"
+            android:background="@color/black"
+            app:controller_layout_id="@layout/mediaplayer"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_thambi"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:text="Learn Python Programming" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Python For Beginners Course Teaches You The Python Language Fast."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_thambi"
+                android:text="What you'll learn"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Have a fundamental understanding of the Python programming language.
+\n 2. Have the skills and understanding of Python to confidently apply for Python programming jobs.
+\n 3. Acquire the pre-requisite Python skills to move into specific branches - Machine Learning, Data Science, etc..
+\n 4. Add the Python Object-Oriented Programming (OOP) skills to your résumé.
+\n 5. Understand how to create your own Python programs.
+\n 6. Learn Python from experienced professional software developers.
+\n 7. Understand both Python 2 and Python 3."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_thambi"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Requirements" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - You’ve either already got it or it’s FREE. Here’s the checklist:
+\n - A computer - Windows, Mac, and Linux are all supported. Setup and installation instructions are included for each platform.
+\n - Your enthusiasm to learn this go-to programming language. It’s a valuable lifetime skill which you can’t un-learn!
+\n - Everything else needed to start programming in Python is already included in the course."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_thambi"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Description" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - You’ve either already got it or it’s FREE. Here’s the checklist:
+\n - A computer - Windows, Mac, and Linux are all supported. Setup and installation instructions are included for each platform.
+\n - Your enthusiasm to learn this go-to programming language. It’s a valuable lifetime skill which you can’t un-learn!
+\n - Everything else needed to start programming in Python is already included in the course."
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Enroll"
+        android:padding="10dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:textColor="#fff"
+        android:text="Enroll Free"
+        android:background="@drawable/button_color"
+        />
+
+
+
+
+</LinearLayout>

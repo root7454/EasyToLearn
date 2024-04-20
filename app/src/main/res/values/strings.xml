@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EasyToLearn</string>
+    <string name="_1_have_a_fundamental_understanding_of_the_python_programming_language_n_2_have_the_skills_and_understanding_of_python_to_confidently_apply_for_python_programming_jobs_n3_acquire_the_pre_requisite_python_skills_to_move_into_specific_branches_machine_learning_data_science_etc_n4_add_the_python_object_oriented_programming_oop_skills_to_your_r_sum_n5_understand_how_to_create_your_own_python_programs_n6_learn_python_from_experienced_professional_software_developers_n7_understand_both_python_2_and_python_3">1. Have a fundamental understanding of the Python programming language.\n 2. Have the skills and understanding of Python to confidently apply for Python programming jobs. \n3. Acquire the pre-requisite Python skills to move into specific branches - Machine Learning, Data Science, etc.. \n4. Add the Python Object-Oriented Programming (OOP) skills to your résumé. \n5. Understand how to create your own Python programs. \n6. Learn Python from experienced professional software developers. \n7. Understand both Python 2 and Python 3.</string>
+    <string name="main_page_selected">%s Page is selected</string>
+    <string name="long_text">thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p thor 2 full movie download in hindi 720p</string>
+    <string name="audio_sub">Audio &amp; Subtitle </string>
+    <string name="lock">Lock</string>
+    <string name="speed_1x">Speed(1x)</string>
+    <string name="rotate">Rotate</string>
+    <string name="tap_to_unlock">Tap to Unlock</string>
+    <string name="screen_locked">Screen Locked</string>
+    <string name="unlock_controls">Unlock Controls?</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="_10_videos">10 videos</string>
+    <string name="_1_00gb">1.00Gb</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="search">Search file name</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="about_us">About us</string>
+    <string name="version">Version</string>
+    <string name="_1_0_1">1.0.1</string>
+    <string name="direct_n_app">Direct\nApp</string>
+    <string name="app_n_link">App\nLink</string>
+    <string name="share">Share</string>
+    <string name="rename">Rename</string>
+    <string name="title">Name:</string>
+    <string name="path">Path:</string>
+    <string name="size">Size:</string>
+    <string name="duration">Duration:</string>
+    <string name="resolution">Resolution:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

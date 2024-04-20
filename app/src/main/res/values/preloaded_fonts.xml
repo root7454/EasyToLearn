@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/anton</item>
+        <item>@font/arbutus</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/bevan</item>
+        <item>@font/biorhyme_extralight</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/goblin_one</item>
+    </array>
+</resources>
